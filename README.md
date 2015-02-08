@@ -4,7 +4,7 @@ An up-to-date Yeoman generator for InuitCSS.
 ## Usage
 First:
 ```
-$ npm install generator-inuitcss
+$ npm install -g generator-inuitcss
 ```
 Then:
 ```
