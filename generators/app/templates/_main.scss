@@ -27,23 +27,23 @@
  */
 
 // Settings
-<% _.forEach(settings, function(module, i) { %>@import "<%= module.bowerUrl %>";	
+<% _.forEach(settings, function(module, i) { %>@import "<%= '../bower_components/' + module.moduleName + '/' + module.moduleFile %>";	
 <% }) %>
 // Tools
-<% _.forEach(tools, function(module, i) { %>@import "<%= module.bowerUrl %>";	
+<% _.forEach(tools, function(module, i) { %>@import "<%= '../bower_components/' + module.moduleName + '/' + module.moduleFile %>";	
 <% }) %>
 // Generic
-<% _.forEach(generic, function(module, i) { %>@import "<%= module.bowerUrl %>";	
+<% _.forEach(generic, function(module, i) { %>@import "<%= '../bower_components/' + module.moduleName + '/' + module.moduleFile %>";	
 <% }) %>
 // Base
-<% _.forEach(base, function(module, i) { %>@import "<%= module.bowerUrl %>";	
+<% _.forEach(base, function(module, i) { %>@import "<%= '../bower_components/' + module.moduleName + '/' + module.moduleFile %>";	
 <% }) %>
 // Objects
-<% _.forEach(objects, function(module, i) { %>@import "<%= module.bowerUrl %>";	
+<% _.forEach(objects, function(module, i) { %>@import "<%= '../bower_components/' + module.moduleName + '/' + module.moduleFile %>";	
 <% }) %>
 // Components
-<% _.forEach(components, function(module, i) { %>@import "<%= module.bowerUrl %>";	
+<% _.forEach(components, function(module, i) { %>@import "<%= '../bower_components/' + module.moduleName + '/' + module.moduleFile %>";	
 <% }) %>
 // Trumps
-<% _.forEach(trumps, function(module, i) { %>@import "<%= module.bowerUrl %>";	
+<% _.forEach(trumps, function(module, i) { %>@import "<%= '../bower_components/' + module.moduleName + '/' + module.moduleFile %>";	
 <% }) %>

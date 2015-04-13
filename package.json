@@ -1,6 +1,6 @@
 {
   "name": "generator-inuitcss",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Select which module you want and initialize an InuitCSS application!",
 
   "scripts": {
@@ -17,7 +17,8 @@
   "dependencies": {
     "yeoman-generator": "*",
     "octonode": "*",
-    "async": "*"
+    "async": "*",
+    "request": "*"
   },
 
   "devDependencies": {

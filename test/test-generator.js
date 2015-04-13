@@ -32,8 +32,8 @@ describe('Inuitcss generator', function(){
   });
 
   it('Should import all the modules into main.scss', function() {
-    var reg1 = /@import "\.\.\/bower_components\/inuit-defaults\/settings\.defaults\.scss/;
-    var reg2 = /@import "\.\.\/bower_components\/inuit-mixins\/tools\.mixins\.scss/;
+    var reg1 = /@import "\.\.\/bower_components\/inuit-defaults\/_settings\.defaults\.scss/;
+    var reg2 = /@import "\.\.\/bower_components\/inuit-mixins\/_tools\.mixins\.scss/;
 
     assert.fileContent(path.join(__dirname, './tmp/sass/main.scss'), reg1);
     assert.fileContent(path.join(__dirname, './tmp/sass/main.scss'), reg2);
