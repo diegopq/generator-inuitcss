@@ -1,30 +1,25 @@
 {
   "name": "generator-inuitcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Select which module you want and initialize an InuitCSS application!",
-
   "scripts": {
     "test": "mocha"
   },
-
   "keywords": [
     "yeoman-generator",
     "inuitcss",
     "inuit",
     "sass"
   ],
-
   "dependencies": {
     "yeoman-generator": "*",
     "octonode": "*",
     "async": "*",
     "request": "*"
   },
-
   "devDependencies": {
     "rimraf": "*"
   },
-
   "author": "diegopq",
   "license": "MIT"
 }
