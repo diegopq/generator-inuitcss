@@ -1,0 +1,49 @@
+/*
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Headings.............H1–H6 styles.
+ *
+ * OBJECTS
+ * Wrappers.............Wrapping and constraining elements.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ * TRUMPS
+ * Text.................Text helpers.
+ */
+
+<% (modules.settings || []).forEach(function(module) { %><%#
+  %>@import "../../bower_components/<%- module.name %>/<%- module.file %>";
+<% });%>
+<% (modules.tools || []).forEach(function(module) { %><%#
+  %>@import "../../bower_components/<%- module.name %>/<%- module.file %>";
+<% });%>
+<% (modules.generic || []).forEach(function(module) { %><%#
+  %>@import "../../bower_components/<%- module.name %>/<%- module.file %>";
+<% });%>
+<% (modules.base || []).forEach(function(module) { %><%#
+  %>@import "../../bower_components/<%- module.name %>/<%- module.file %>";
+<% });%>
+<% (modules.objects || []).forEach(function(module) { %><%#
+  %>@import "../../bower_components/<%- module.name %>/<%- module.file %>";
+<% });%>
+<% (modules.components || []).forEach(function(module) { %><%#
+  %>@import "../../bower_components/<%- module.name %>/<%- module.file %>";
+<% });%>
+<% (modules.trumps || []).forEach(function(module) { %><%#
+  %>@import "../../bower_components/<%- module.name %>/<%- module.file %>";
+<% });%>

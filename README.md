@@ -10,12 +10,11 @@ Then:
 ```
 $ yo inuitcss
 ```
-## Features
-1. Lets you choose the modules you want to install.
-2. Sets up a bower.json file with all the modules you have selected.
-3. Automatically imports all the modules into a sass/main.scss file according to the priorities of each module.
-4. Creates standard directories like sass/ and css/.
-5. Links the css/main.css into index.html.
+
+## This generator
+1. Gets the newest modules from the official GitHub page
+2. Builds and executes the related bower.json file
+3. Creates the css/source/main.scss file with all the modules imported
 
 ## License
 The MIT License (MIT)
