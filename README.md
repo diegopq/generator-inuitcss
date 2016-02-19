@@ -13,7 +13,7 @@ $ yo inuitcss
 
 ## This generator
 1. Gets the newest modules from the official GitHub page
-2. Builds and executes the related bower.json file
+2. Builds and executes a custom bower.json file
 3. Creates the css/source/main.scss file with all the modules imported
 
 ## License

@@ -1,7 +1,7 @@
 {
   "name": "generator-inuitcss",
-  "version": "2.0.0",
-  "description": "Select which module you want and initialize an InuitCSS application!",
+  "version": "2.0.1",
+  "description": "Select which modules you want and initialize an InuitCSS application!",
   "scripts": {
     "test": "mocha --timeout 0"
   },
@@ -9,19 +9,30 @@
     "yeoman-generator",
     "inuitcss",
     "inuit",
-    "sass"
+    "sass",
+    "oocss"
   ],
+  "main": "generators/app/index.js",
+  "homepage": "https://github.com/diegopq/generator-inuitcss",
+  "bugs": "https://github.com/diegopq/generator-inuitcss/issues",
+  "author": {
+    "name": "Diego Pasquali",
+    "email": "hi@diegopq.me",
+    "url": "https://diegopq.me/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegopq/generator-inuitcss.git"
+  },
   "dependencies": {
     "yeoman-generator": "^0.20.2",
-    "yeoman-test": "*",
-    "yeoman-assert": "*",
     "octonode": "*",
     "request": "*",
     "async": "*"
   },
   "devDependencies": {
-    "rimraf": "*"
+    "yeoman-test": "*",
+    "yeoman-assert": "*"
   },
-  "author": "diegopq",
   "license": "MIT"
 }
